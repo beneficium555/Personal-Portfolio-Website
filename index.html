@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arsenal&display=swap" rel="stylesheet"> 
+        <title>Niko's Homepage</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myDIV");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            function myFunction2() {
+              var x = document.getElementById("myDIV2");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            function myFunction3() {
+              var x = document.getElementById("myDIV3");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+            </script>
+    </head>
+    <body>
+       <header>
+           <h1>Niko Kumelj</h1>
+           <nav>
+            <img class="logo" src="./resources/logo.png" alt="Niko Kumelj logo">    
+               <ul>
+                   <li><a href="#about">About Me</a></li>
+                   <li><a href="#projects">Projects</a></li>
+                   <li><a href="#skills">Skills</a></li>
+                   <li><a href="#contact">Contact</a></li>
+               </ul>
+           </nav>
+       </header>
+       <section id="about" class="about">
+           <img class="Nikophoto" src="./resources/NikoImage.PNG" alt="Photo of Niko">
+           <h2>About Me</h2>
+           <p>Hi! I'm Niko Kumelj, the creator of this homepage. It's a new project of mine that I enjoy doing.</p>
+           <p>Coding is something that I like to do.</p>
+       </section>
+       <section id="projects" class="projects">
+           <h2>My Projects</h2>
+           <ul>
+            <button onclick="myFunction()">
+                <li>Excursion</li>
+            </button>
+                <section id="myDIV">
+                    <a href="https://github.com/beneficium555/excursion.git">Github homepage</a>
+                    <img src="" alt="Example screenshot of Excursion code"> 
+                </section>
+            <button onclick="myFunction2()">   
+                <li>Arts website</li>
+            </button>
+            <section id="myDIV2">
+                <a href="https://github.com/beneficium555/git-training.git">Github homepage</a>
+                <img src="" alt="Example screenshot of Arts code"> 
+            </section>
+            <button onclick="myFunction3()">
+               <li>Tea Cozy homepage</li>
+            </button>
+            <section id="myDIV3">
+                <a href="https://github.com/beneficium555/TeaCozy.git">Github homepage</a>
+                <img src="" alt="Example screenshot of Tea Cozy code"> 
+           </ul>
+       </section>
+       <section id="skills" class="skills">
+           <h2>My Skills</h2>
+           <div class="container">
+               <div class="box"></div>
+               <div class="box"></div>
+               <div class="box"></div>
+               <div class="box"></div>
+            <!--<img class="Javascript" src="./resources/Javascript-logo.jpg" alt="JavaScript logo">
+            <img class="HTML" src="./resources/Html5logo.jpeg" alt="HTML logo">
+            <img class="CSS" src="./resources/CSS3_logo_and_wordmark.jpeg" alt="CSS logo">
+            <img class="SQL" src="./resources/sql-logo.jpg" alt="SQL logo">-->
+        </div>
+       </section>
+       <footer id="contact" class="contact"> 
+           <h2>Contact Me</h2>
+            <li><img class="email" src="./resources/emaillogo.jpeg" alt="Mail Logo">e-mail: nikokumelj3@gmail.com</li>
+            <li><img class="phone" src="./resources/whatsapplogo.jpeg" alt="Phone logo">Whatsapp or Phone: 031-428-071</li>
+            <li><img class="instagram" src="./resources/instagramlogo.jpg" alt="Instagram logo">Instagram: nkumelj</li>
+           </ul>
+
+       </footer>
+    </body>
+</html>
