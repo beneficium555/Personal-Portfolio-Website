@@ -1,9 +1,14 @@
 /*MAINS*/
-html {
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
     background-color: ffffff;
     font-family: 'Arsenal';
+    font-size: 22px;
+   /* background-color: /*#0557a4*/ /*#387eaf*/ /*#848383*/
+    text-align: center;
+    background-color: seashell;
 }
 ul {
     list-style: none;
@@ -12,30 +17,58 @@ img {
     width: 300px;
     height: 400px;
 }
+#myDIV, #myDIV2, #myDIV3 {
+    display: none;
+}
 /*HEADER*/
 .logo {
-    width: 100px;
+    position: absolute;
+    top: 9.5px;
+    left: 10px;
     height: 100px;
+    width: auto;
 }
-
+header {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 110px;
+    border-bottom: 1px solid #387eaf;
+    background-color: #0557a4;
+}
+header ul {
+    margin-top: -40px;
+    margin-right: 20px;
+    padding: 0;
+    text-align:right;
+}
+header li {
+    display: inline-block;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
 /*ABOUT ME*/
+
 /*PROJECTS*/
-.container{
-    position: relative;
-    width: 1200px;
-    height: 300px;
-    margin: 240px auto;
+.projects {
+    background-image: url(./resources/Background-projects2.jpg);
+    background-position:center;
+    background-size:cover;
 }
-.container .box{
-    position: relative;
-    width: calc(400px - 3px);
-    height: calc(300px - 30px);
-    background: #000;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
+button {
+    background-color: seashell;
+    border-color:seashell;
+    border-style: hidden;
+}
+button:hover {
+    background-color: #387eaf;
+    border-color: #387eaf;
+}
+button li  {
+    font-family: inherit;
 }
 /*SKILLS*/
 /*CONTACT*/ 
